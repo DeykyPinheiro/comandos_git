@@ -1,0 +1,39 @@
+# Leia antes de iniciar o projeto
+
+o que fazer quando commitar antes da hora?
+dar git add normalmente
+depois git commit --amend -m 'nome do commit'
+
+como voltar um repositorio ao estado original?
+
+
+## comandos:
+- git init -> inicializa a linha do tempo
+- git add -> adicionar arquivos
+- git commit -> comitar alteracoes
+- git commit -am <mensagem> -> funciona como um add e um commit, necessario apenas passa a msg
+- git diff -> visualizar alteracoes entre a area de alteracao e o arquivo
+- git diff --staged -> mostra a alterecao entre arquivos e o staged
+- git log -> mostra todos os commits
+- git log -p, tras as alteracoes e mostra o que foi alterado
+- git log -p -numero -> mostra o tanto de entradas que voce quer
+- gitk -> abre uma interface pra visualizar
+- git log --pretty=online -> exibe apenas a chave e o commit
+- git reset HEAD name -> remove arquivo da stage area
+
+## Tag
+### geralmente é usado para controle de versao
+- git tag -> mostra todas as tag
+- git tag -a <nome> -m <mesagem> -> cria uma tag no ponto atual
+- git tag -a <nome> <key do log> -m <mensagem> -> cria uma tag para um ponto atras
+- git checkout <nome tag>  -> volta a versao tageada
+- git show <nome tag> ->mostra os detalhes da tag
+- git tag -d <nome> -> deleta a tag
+
+## branch
+### permite que trabalhe com varia ramificacoes do projeto
+- git branch <nome> -> cria um branch com o nome que voce deu
+- git checkout <nome branch> - muda pra o branch que voce quis 
+- git checout -b <nome> -> cria e ja entra na nova branch
+- git merge <nome branch> -> junta a duas branchs
+- git branch -d <nome> -> deleta a branch

@@ -41,4 +41,5 @@ como voltar um repositorio ao estado original?
 ### banch remota
 - git push <branch que recebe> <branch que envia> --> cria uma branch remota como nome da que enviar 
 - git branch -a --> mostra todas as branchs, até as remotas
-- 
+- git fetch <nome da branch remota(geralmente origin)> <nome que voce deu para o ramo>:<nome da branch que vai receber> --> acumular as branch que remota na branch local escolhida
+- git push --delete origin <nome da branch remota > --> excluir a branch remota

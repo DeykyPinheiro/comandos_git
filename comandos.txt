@@ -40,3 +40,5 @@ como voltar um repositorio ao estado original?
 
 ### banch remota
 - git push <branch que recebe> <branch que envia> --> cria uma branch remota como nome da que enviar 
+- git branch -a --> mostra todas as branchs, até as remotas
+- 

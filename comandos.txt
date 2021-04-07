@@ -37,3 +37,6 @@ como voltar um repositorio ao estado original?
 - git checout -b <nome> -> cria e ja entra na nova branch
 - git merge <nome branch> -> junta a duas branchs
 - git branch -d <nome> -> deleta a branch
+
+### banch remota
+- git push <branch que recebe> <branch que envia> --> cria uma branch remota como nome da que enviar 

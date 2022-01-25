@@ -43,3 +43,4 @@ como voltar um repositorio ao estado original?
 - git branch -a --> mostra todas as branchs, até as remotas
 - git fetch <nome da branch remota(geralmente origin)> <nome que voce deu para o ramo>:<nome da branch que vai receber> --> acumular as branch que remota na branch local escolhida
 - git push --delete origin <nome da branch remota > --> excluir a branch remota
+- git checkout -b <nome-do-seu-branch-local> origin/<nome-do-branch-remoto> --> baixar branch remota
